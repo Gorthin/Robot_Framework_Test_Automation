@@ -9,20 +9,19 @@ Library  SeleniumLibrary
 User must sign in to check out
     [Documentation]  This is some basic info about the test
     [Tags]  Smoke
-    Open Browser  http://www.amazon.com  ie
+    Open Browser  http://www.amazon.com  chrome
     #wait until page contains  Your Amazon.com
     input text  id=twotabsearchtextbox  Ferrari 458
     click button  id=nav-search-submit-button
     wait until page contains  results for "Ferrari 458"
-    click link  css=#result_0 a.s-access-detail-page
-    wait until page contains  Back to search results
+    click link  xpath=//*[@id="search"]/div[1]/div[1]/div/span[3]/div[2]/div[2]/div/span/div/div/div/div/div[2]/div[1]/h2/a
+    wait until page contains  Back to results
     click button  id=add-to-cart-button
-    wait until page contains  1 item added to Cart
+    wait until page contains  Added to Cart
 
-    click link  Proceed to Checkout
+    click link  xpath=/html/body/div[1]/div[2]/div/div[1]/div[2]/div/span[2]/span/a
     page should contain element  ap_signin1a_pagelet_title
     element text should be  ap_signin1a_pagelet_title  Sign In
-
-    Close Browser
+    close browser
 
 *** Keywords ***
