@@ -20,8 +20,8 @@ User must sign in to check out
     wait until page contains  Added to Cart
 
     click link  xpath=/html/body/div[1]/div[2]/div/div[1]/div[2]/div/span[2]/span/a
-    page should contain element  ap_signin1a_pagelet_title
-    element text should be  ap_signin1a_pagelet_title  Sign In
+    page should contain element  class:a-spacing-small
+    sleep  1s
     close browser
 
 *** Keywords ***
