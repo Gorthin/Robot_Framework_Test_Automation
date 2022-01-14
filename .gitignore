@@ -1,6 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
 .gitignore
 .idea/sonarlint/issuestore/b/
+./venv
+./.idea
 #project1/Resources/
 project1/Result/
 project2/
