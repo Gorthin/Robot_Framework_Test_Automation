@@ -2,10 +2,13 @@
 Library  SeleniumLibrary
 Library  String
 Library  Process
+Resource    ../Tests/Amazon.robot
+
+*** Variables ***
 
 *** Keywords ***
 Begin Web Test
-    Open Browser  about:blank  chrome
+    Open Browser  about:blank  ${BROWSER}
 
 End Web Test
     close browser
