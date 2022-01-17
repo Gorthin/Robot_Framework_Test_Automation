@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation  Amazon top navigation
 Library  SeleniumLibrary
-Resource    ../Tests/Amazon.robot
+Resource  ./project1/Tests/Amazon.robot
 
 *** Keywords ***
 Search for Products

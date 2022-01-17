@@ -1,6 +1,6 @@
 *** Settings ***
 Library  SeleniumLibrary
-Resource    ../Tests/Amazon.robot
+Resource  ./project1/Tests/Amazon.robot
 
 *** Keywords ***
 Verify Search Completed
