@@ -5,7 +5,7 @@
 ./.idea
 #project1/Resources/
 project1/Result/
-project2/
+project2/Results/
 venv/Include/
 venv/Lib/site-packages/AppiumLibrary/__pycache__/
 venv/Lib/site-packages/AppiumLibrary/keywords/__pycache__/
