@@ -15,11 +15,12 @@ ${URL} =  https://www.robotframeworktutorial.com/front-office/
 Should be able to access "Team" page
     [Documentation]  This is test 1
     [Tags]  test1
-    log  Executing test 1
-    Sleep  2s
+    FrontOfficeApp.Go to Landing Page
+    FrontOfficeApp.Go to "Team" Page
 
 "Team" page should match requirements
     [Documentation]  This is test 2
     [Tags]  test2
-    log  Executing test 2
-    Sleep  2s
+    FrontOfficeApp.Go to Landing Page
+    FrontOfficeApp.Go to "Team" Page
+    FrontOfficeApp.Validate "Team" Page
