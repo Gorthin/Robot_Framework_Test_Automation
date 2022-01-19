@@ -25,11 +25,23 @@ Y
 )project1/Resources/PageObjects/Cart.robot,d\5\d580c74b2d4cb9243f51a01174054b6ff1294ff3
 \
 ,project1/Resources/PageObjects/Product.robot,7\4\74a3467dac1d817feac5cd3a52ae3942ca54b5ae
-b
-2project1/Resources/PageObjects/SearchResults.robot,4\2\424d56ec597fc8ed14913f6a1e8cbacbabc02982
 `
 0project1/Resources/PageObjects/LandingPage.robot,2\3\235ea63e08fbee69c5c82bdda58f400e4021e88a
 [
 +project1/Resources/PageObjects/SignIn.robot,6\4\64fafb3dc521fb30d1ba8d0469657bf6fd1b544a
 [
 +project1/Resources/PageObjects/TopNav.robot,a\8\a8a808e0340bc7c97e1cd6903ec6835cde495826
+K
+project1/Tests/Amazon.robot,b\9\b90022282cec99e17e439dfb97b77f921c7a3b34
+R
+"project2/Resources/PO/TopNav.robot,2\3\23cbce40c218da9bda83893dcc00b1b3e44015df
+S
+#project2/Resources/PO/Landing.robot,e\a\ea78f2254845a77be12d46c3cb3acab060d5b71e
+R
+"project2/Resources/CommonWeb.robot,8\0\8094bf81cc56c225147f0fdca7bd8f191a1e269c
+W
+'project2/Resources/FrontOfficeApp.robot,1\5\154356ad2437edd829246dc58e933e8f458f6802
+P
+ project2/Resources/PO/Team.robot,1\6\16bf2bafc234a33623890e7eee6f6cc284b0ff2d
+Q
+!project2/Tests/Front_office.robot,1\2\121967e5678f745a2768becc6ab3a472acea2f8a
