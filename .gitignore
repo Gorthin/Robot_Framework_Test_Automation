@@ -1,11 +1,14 @@
 # Created by .ignore support plugin (hsz.mobi)
 .gitignore
 .idea/sonarlint/issuestore/b/
+.idea/sonarlint/issuestore/
+.idea/sonarlint/
 ./venv
 ./.idea
 #project1/Resources/
 project1/Result/
 project2/Results/
+project3/Results/
 venv/Include/
 venv/Lib/site-packages/AppiumLibrary/__pycache__/
 venv/Lib/site-packages/AppiumLibrary/keywords/__pycache__/
@@ -585,3 +588,11 @@ venv/Scripts/__pycache__/
 /libraries/Results/XML/log.html
 /libraries/Results/XML/output.xml
 /libraries/Results/XML/report.html
+/.idea/sonarlint/issuestore/0/b/0bd20f640b665ce3aa17b021faeb69db7ae4b2c8
+/.idea/sonarlint/issuestore/1/a/1ac2f4201629b46563a3f9cdf11bc9552cfcf056
+/.idea/sonarlint/issuestore/4/e/4ec55050ee11bca25d12678dbb2936f0a524a4f2
+/.idea/sonarlint/issuestore/5/f/5fe1fc955ff4901553dc80f38ae0dd2394c12bdc
+/.idea/sonarlint/issuestore/6/e/6e7011fc5d4aec3201927c4bfae86d60df8b5428
+/.idea/sonarlint/issuestore/6/f/6f543dd2087cf8d19a00d6b51b0c00481fe220e8
+/.idea/sonarlint/issuestore/9/c/9cfe8cfab88d7062a8e937b7633c58f9d220e807
+/.idea/sonarlint/issuestore/5/3/53ab65ef11b5c555ce463096f99a11679de56e29
