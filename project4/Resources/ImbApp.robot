@@ -1,5 +1,5 @@
 *** Settings ***
-Library  Selenium2Library
+Library  SeleniumLibrary
 Resource  ./PO/Landing.robot
 Resource  ./PO/TopNav.robot
 Resource  ./PO/Register.robot

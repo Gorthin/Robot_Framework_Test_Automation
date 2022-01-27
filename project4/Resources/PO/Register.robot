@@ -1,5 +1,5 @@
 *** Settings ***
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 ${REGISTER_EMAIL_INPUT} =       id=MainContent_Email
