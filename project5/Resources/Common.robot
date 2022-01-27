@@ -1,12 +1,12 @@
 *** Settings ***
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 
 *** Keywords ***
 Begin Web Test
     Open Browser  about:blank  ${BROWSER}
-    #Maximize Browser Window
+    Maximize Browser Window
 
 End Web Test
-    Close All Browsers
+    close browser
