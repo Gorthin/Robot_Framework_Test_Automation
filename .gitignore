@@ -9,6 +9,7 @@
 project1/Result/
 project2/Results/
 project3/Results/
+project4/Results/
 venv/Include/
 venv/Lib/site-packages/AppiumLibrary/__pycache__/
 venv/Lib/site-packages/AppiumLibrary/keywords/__pycache__/
@@ -596,3 +597,4 @@ venv/Scripts/__pycache__/
 /.idea/sonarlint/issuestore/6/f/6f543dd2087cf8d19a00d6b51b0c00481fe220e8
 /.idea/sonarlint/issuestore/9/c/9cfe8cfab88d7062a8e937b7633c58f9d220e807
 /.idea/sonarlint/issuestore/5/3/53ab65ef11b5c555ce463096f99a11679de56e29
+/project4/Results/
