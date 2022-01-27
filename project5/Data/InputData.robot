@@ -1,10 +1,10 @@
 
 *** Variables ***
 # Configuration
-${BROWSER} =  edge
+${BROWSER} =  chrome
 ${ENVIRONMENT} =  prod
-&{BASE_URL}  dev=https://dev.cars.com/  qa=https://qa.cars.com/  prod=https://www.cars.com/
-${LOGIN_URL} =  profile/secure/login
+&{BASE_URL}  dev=https://cars.com/  qa=https://cars.com/  prod=https://www.cars.com/
+${LOGIN_URL} =  signin/?redirect_path=%2Fprofile%2F
 
 # Input Data
 &{UNREGISTERED_USER}  Email=admin@robotframeworktutorial.com  Password=TestPassword!  ExpectedErrorMessage=You haven't signed up yet. Try a different email address or
