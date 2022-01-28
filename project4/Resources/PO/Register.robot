@@ -2,9 +2,10 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${REGISTER_EMAIL_INPUT} =       id=MainContent_Email
-${REGISTER_PASSWORD1_INPUT} =   id=MainContent_Password
-${REGISTER_PASSWORD2_INPUT} =   id=MainContent_ConfirmPassword
+${REGISTER_NAME_INPUT} =       id=ap_customer_name
+${REGISTER_EMAIL_INPUT} =       id=ap_email
+${REGISTER_PASSWORD1_INPUT} =   id=ap_password
+${REGISTER_PASSWORD2_INPUT} =   id=ap_password_check
 
 *** Keywords ***
 Verify Page Loaded
@@ -12,11 +13,16 @@ Verify Page Loaded
 
 Fill Page and Submit
     [Arguments]  ${UserData}
+    Fill Your Name  ${UserData.FirstName}
     Fill Email  ${UserData.Email}
     Fill Password  ${UserData.Password}
     Fill Confirmation Password  ${UserData.Password}
-    #TODO - Submit the form
+    click button    id=continue
     Sleep  5s
+
+Fill Your Name
+    [Arguments]  ${FirstName}
+    Input Text  ${REGISTER_NAME_INPUT}  ${FirstName}
 
 Fill Email
     [Arguments]  ${Email}
