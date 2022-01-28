@@ -16,6 +16,8 @@ ${BROWSER} =  chrome
 &{CUSTOMER_USER}  FirstName=Bryan  LastName=Lamb  Dob=1/1/1900  Email=bryan@robotframework.com  Password=MyPassword!
 &{ADMIN_USER}  FirstName=Joe  LastName=Smith  Dob=1/1/1900  Email=admin@robotframework.com  Password=AdminPassword!
 
+  # The site is under reconstruction so the test features are not working.
+
 *** Test Cases ***
 Should be able to view landing page
     [Tags]  landing
