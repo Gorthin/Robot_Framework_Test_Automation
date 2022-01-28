@@ -602,3 +602,4 @@ venv/Scripts/__pycache__/
 /.idea/sonarlint/issuestore/9/c/9cfe8cfab88d7062a8e937b7633c58f9d220e807
 /.idea/sonarlint/issuestore/5/3/53ab65ef11b5c555ce463096f99a11679de56e29
 /project4/Results/
+/.idea/csv-plugin.xml
