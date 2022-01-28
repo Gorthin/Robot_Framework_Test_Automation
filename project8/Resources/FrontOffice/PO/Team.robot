@@ -1,5 +1,5 @@
 *** Settings ***
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 ${TEAM_HEADER_LABEL} =  css=#team > div > div:nth-child(1) > div > h2

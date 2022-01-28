@@ -1,5 +1,5 @@
 *** Settings ***
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 ${LANDING_NAVIGATION_ELEMENT} =  id=mainNav
