@@ -1,10 +1,10 @@
 *** Settings ***
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
-${SIGN_IN_EMAIL} =          xpath=//cui-input[@options='email']/div/input
-${SIGN_IN_PASSWORD} =       xpath=//cui-input[@options='loginPassword']/div/input
-${LOGIN_SUBMIT_BUTTON} =    xpath=//button[@name='&lid=Log In']
+${SIGN_IN_EMAIL} =          id=email
+${SIGN_IN_PASSWORD} =       id=password
+${LOGIN_SUBMIT_BUTTON} =    Sign in
 
 *** Keywords ***
 Navigate To
