@@ -10,4 +10,4 @@ Load
     go to    ${START_URL}
 
 Verify Page Loaded
-    Wait Until Page Contains  Gmail
+    Wait Until Page Contains  Welcome to Wikipedia
