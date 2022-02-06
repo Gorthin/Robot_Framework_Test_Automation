@@ -7,13 +7,13 @@ Resource  ../Resources/GoogleWeb.robot
 Test Setup  Common.Begin Web Test
 Test Teardown  Common.End Web Test
 
-# robot -dresults -i Current tests/Google.robot
+# robot -d results -i Current tests/Google.robot
 # robot -dresults tests/Google.robot
 
 *** Variables ***
 ${BROWSER} =  chrome
-${START_URL} =  http://www.google.com
-${SEARCH_TERM} =  Long Term Evolution wikipedia
+${START_URL} =  https://en.wikipedia.org/wiki/Main_Page
+${SEARCH_TERM} =  Long Term Evolution
 
 *** Test Cases ***
 Logged out user can search for products
