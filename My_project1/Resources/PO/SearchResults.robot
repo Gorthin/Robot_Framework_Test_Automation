@@ -1,11 +1,11 @@
 *** Settings ***
 Library  SeleniumLibrary
-Resource  ./project1/Tests/Amazon.robot
+Resource  ../Tests/Google.robot
 
 *** Keywords ***
 Verify Search Completed
-    wait until page contains  results for "${SEARCH_TERM}"
+    wait until page contains  From Wikipedia
 
-Click Product Link
-    [Documentation]  Clicks on the first product in the search results list
-    click link  Long Term Evolution – Wikipedia, wolna encyklopedia
+#Click Product Link
+#    [Documentation]  Clicks on the first product in the search results list
+#    click link  Long Term Evolution – Wikipedia, wolna encyklopedia
