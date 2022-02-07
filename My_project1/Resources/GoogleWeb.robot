@@ -15,13 +15,6 @@ Search for Products
     SearchResults.Verify Search Completed
 
 Select product from Search Results
-    SearchResults.Click Product Link
     Product.Verify Page Loaded
-
-Change and download
-    Product.Change Language
-    Product.Download As Pdf
-
-#Begin Checkout
-#    Cart.Proceed to Checkout
-#    SignIn.Verify Page Loaded
+    SearchResults.Click Downloaded Link
+    Product.Click Download Button
