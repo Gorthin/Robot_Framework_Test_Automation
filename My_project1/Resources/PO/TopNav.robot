@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation  Google top navigation
 Library  SeleniumLibrary
-Resource  ../Tests/Google.robot
+Resource  ./My_project1/Tests/Google.robot
 
 *** Variables ***
 ${TOPNAV_SEARCH_BAR} =  id=searchInput
