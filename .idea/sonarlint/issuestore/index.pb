@@ -51,8 +51,6 @@ X
 ,libraries/Resources/Web/PO/LandingPage.robot,1\a\1ac2f4201629b46563a3f9cdf11bc9552cfcf056
 N
 libraries/Tests/Built_In.robot,e\0\e08dda35e2802dbb3dbedbfdb827e089d032eae2
-\
-,libraries/Resources/OperatingSystem/OS.robot,5\f\5fe1fc955ff4901553dc80f38ae0dd2394c12bdc
 `
 0libraries/Outputs/first directory/third file.txt,3\0\300129d55ef37b46fa7c009065fc6a1ffc2caf58
 `
@@ -61,8 +59,6 @@ b
 2libraries/Outputs/second directory/second file.txt,f\0\f0127df51baf00251508abbdf8763237b64777ae
 a
 1libraries/Outputs/second directory/first file.txt,d\6\d68c3467eda6f1d8e6eda411cb2abf9c6fca34a9
-V
-&libraries/Tests/Operating_System.robot,d\a\da3115c96f921a012023776eb5741d0c45473e3d
 Q
 !libraries/Tests/MySql_Tests.robot,1\9\1983bcf20902792a0cb05f3574a4737f8ac04097
 T
@@ -99,11 +95,96 @@ W
 'project2/Resources/FrontOfficeApp.robot,1\5\154356ad2437edd829246dc58e933e8f458f6802
 Q
 !project2/Tests/Front_office.robot,1\2\121967e5678f745a2768becc6ab3a472acea2f8a
-R
-"project1/Resources/AmazonWeb.robot,6\b\6b729bd364ea65eeff5cc1b96daf9578f24c4332
 O
 project1/Resources/Common.robot,1\3\1347c67dc2c3078b48310680b10548de351baa25
 N
 project1/Resources/Scope.robot,d\e\de35c1af3e55f3eb60ef6b7ac981df549832fbe1
 K
-project1/Tests/Amazon.robot,b\9\b90022282cec99e17e439dfb97b77f921c7a3b34
+project3/Tests/ElseIf.robot,3\8\384f627217de98cbb7ba0956a2ee4fd44acdf0ce
+Q
+!project3/Resources/PO/About.robot,b\a\ba907f17d905025257acea07aa6e8efe721f7711
+T
+$project3/Resources/PO/Register.robot,0\3\03ca9c54a27e934827972aedb87a5b609250c3bf
+R
+"project3/Resources/PO/TopNav.robot,4\5\45d4395ca0528f6ac20ffde6dd7ab5f06e53c942
+O
+project3/Resources/ImbApp.robot,c\6\c6dd02d0ac687294516768adc1fd5ddc370e489d
+S
+#project3/Resources/PO/Landing.robot,d\2\d2f4c31d1ce46e32cf4a49aaaa20cfe96b2aab9f
+N
+project3/Tests/IMB_Tests.robot,e\3\e3502551275acbb099ca98e6e21731b2cac04160
+O
+project4/Resources/Common.robot,8\f\8f58db9fabb23d3ae8b996923f7afbf1cf77ee42
+O
+project4/Resources/ImbApp.robot,9\4\943383856d06134755da300a6a11318197e3c650
+S
+#project4/Resources/PO/Landing.robot,1\a\1a9e2b830b143f62118176077297dda2afec02b0
+R
+"project4/Resources/PO/TopNav.robot,7\1\71eae1c103428603adbff30712107d2815eb6442
+T
+$project4/Resources/PO/Register.robot,d\5\d523fb9c0e18504d7e1e954b5edac1298627ebf2
+N
+project4/Tests/IMB_Tests.robot,1\a\1a4d4d18d67a82f1783215863e616966ee996c3c
+P
+ project5/Resources/CarsApp.robot,f\9\f9d150b5dd882af31e4dfd2c57535b229e007a9b
+I
+project5/Tests/Cars.robot,8\b\8b9fc26a6bacdecd34aef983f2f6601a30519fb2
+M
+project5/Data/InputData.robot,3\6\368b72f440b7a56b57b1175eeb4d5c7818fac8c8
+R
+"project5/Resources/PO/SignIn.robot,d\4\d4da2428daa3792da066ad0a54b9d605c26b4f20
+O
+project5/Resources/Common.robot,0\7\07d13b4817277a97148f3bf33c63cc2283853020
+O
+project6/Resources/Common.robot,7\a\7a6aa840054031a72a6e81137f042040469a0085
+I
+project6/Tests/Cars.robot,2\c\2c1dc65951b5661e517dd27b3289f6f87f87679e
+M
+project6/Data/InputData.robot,5\7\5777235dd787b5603e4d38659265a9346bcee9ea
+P
+ project6/Resources/CarsApp.robot,d\9\d965449cb0881065dfc5af8c4118e0318aa342a6
+R
+"project6/Resources/PO/SignIn.robot,6\1\6102c41f817ea19eab67e0e9f6f72cb6130676a2
+I
+project7/Tests/Cars.robot,7\e\7ea8d1fec8d1941a06976e631a08d274e1df6f6c
+T
+$project7/Resources/DataManager.robot,6\e\6e2099227b821992dafc0e6ac209bdf525bc18fc
+G
+project7/Data/Users.csv,d\e\def3e7c4decd63e8e99326bf16e720c5e72bca1f
+R
+"project7/Resources/PO/SignIn.robot,9\d\9d955cc7843a94021c2ed2ea331272a55f643a10
+M
+project7/Data/InputData.robot,2\7\27d6d39f7cda8c28cb80ed75402de7858918bf84
+J
+project7/CustomLibs/Csv.py,8\e\8e5982afce9d622e5ef9269cdb0615b695783c4a
+O
+project7/Resources/Common.robot,f\5\f58ba93aa5990cb60ab2aba7382eb747a6374d75
+P
+ project7/Resources/CarsApp.robot,8\f\8f79102999daf776ca2a6ab87ab09522925fd75d
+[
++project8/Tests/BackOffice/Back_Office.robot,a\1\a1a7779b0ed41aa986b2fd72bca742a041132bf9
+]
+-project8/Tests/FrontOffice/Front_Office.robot,9\4\9427c339087af789ffb7df7a290a9177b4c9bee7
+a
+1project8/Resources/BackOffice/BackOfficeApp.robot,3\6\365de8d80b3a1bef75c5d06d53313d1d08aa1f50
+c
+3project8/Resources/FrontOffice/FrontOfficeApp.robot,f\4\f4a5bee7be1f0feaf1a0893c42ec9d9e9e2447ee
+X
+(project8/Tests/EndToEnd/End_to_End.robot,e\1\e1581c476e50fe90aa3d32ec0117cb97d2c92feb
+Y
+)project8/Resources/Common/CommonWeb.robot,9\9\991d3c1a6a91db26b263a1a119cb5e961818c441
+\
+,project8/Resources/FrontOffice/PO/Team.robot,b\b\bb8aee14df5d607770c9d5cf2750a15af5b56f58
+^
+.project8/Resources/FrontOffice/PO/TopNav.robot,a\2\a2c6743b4b351c79292e783b4f9a3235f0ad78a6
+]
+-project8/Resources/BackOffice/PO/TopNav.robot,8\5\85ecc79ff3cb12ca815c663ae3a03815bd05cd38
+i
+9project8/Resources/BackOffice/PO/BackOffice.Landing.robot,d\b\db4398a8d0b124366a1edd75af335a365cb10d4b
+M
+project8/Data/InputData.robot,1\8\18e06577e509a7d784e2d01b79925f5e189efa5d
+k
+;project8/Resources/FrontOffice/PO/FrontOffice.Landing.robot,b\8\b859c2a984dca89903d82a2c449591465388c951
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
