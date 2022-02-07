@@ -14,4 +14,4 @@ Begin Web Test
     sleep   1
 
 End Web Test
-    close browser
+    close all browsers
