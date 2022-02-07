@@ -1,6 +1,6 @@
 *** Settings ***
 Library  SeleniumLibrary
-Resource  ../Tests/Google.robot
+Resource  ./My_project1/Tests/Google.robot
 
 *** Variables ***
 
